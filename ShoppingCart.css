@@ -1,0 +1,28 @@
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    border-collapse: separate;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: right;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+h1{
+    font-family: fantasy;
+    color:navy;
+    text-align: center;
+    font-weight: bolder;
+}
+#myBtn{
+    position:absolute;
+    top: 50%;
+    background-color: black;
+    color: #dddddd;
+}
